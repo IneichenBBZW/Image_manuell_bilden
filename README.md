@@ -9,15 +9,13 @@ Fügen Sie in hello.py folgenden Code ein: [Flask-App](https://palletsprojects.c
 
 start.sh erstellen, um die Flask-App zu starten:\
 $ code start.sh\
-Folgenden Code einfügen:
-`
-#! /bin/bash\
+Folgenden Code einfügen:\
+\#! /bin/bash\
 cd /app\
 export FLASK_APP="hello"\
 export FLASK_ENV="development"\
 export FLASK_RUN_HOST="0.0.0.0"\
 flask run
-`
 
 Python Container erstellen und einrichten:\
 $ docker create -it --name flask-manual -p 5000:5000 python /bin/bash\
