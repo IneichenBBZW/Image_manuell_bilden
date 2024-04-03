@@ -33,7 +33,7 @@ $ docker start -i flask-manual\
 Unter localhost:5000 Ergebnis prüfen.\
 \# exit
 
-Aus dem eingerichteten Container Image erstellen und daraus Container starten:\
+Aus dem eingerichteten Container ein Image erstellen und daraus Container starten:\
 $ docker commit flask-manual flask-manual-image:1.0\
 $ docker run -it --rm -p 5000:5000 flask-manual-image:1.0\
 \# /app/start.sh\
