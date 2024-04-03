@@ -19,7 +19,7 @@ flask run
 
 Python Container erstellen und einrichten:\
 $ docker create -it --name flask-manual -p 5000:5000 python /bin/bash\
-$ docker start -i manual\
+$ docker start -i flask-manual\
 \# mkdir /app\
 \# exit\
 $ docker cp hello.py flask-manual:/app\
