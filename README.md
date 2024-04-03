@@ -41,6 +41,6 @@ Unter localhost:5000 Ergebnis prüfen.\
 \# exit
 
 Image um einen CMD-Befehl erweitern:\
-$ docker commit --change "CMD /app/start-app.sh" flask-manual flask-manual-image:1.1\
+$ docker commit --change "CMD /app/start.sh" flask-manual flask-manual-image:1.1\
 $ docker run -it --rm -p 5000:5000 flask-manual-image:1.1\
 Unter localhost:5000 Ergebnis prüfen.
