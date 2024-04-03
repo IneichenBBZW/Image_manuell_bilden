@@ -1,7 +1,7 @@
 # Image manuell bilden
 
-$ mkdir manual-build\
-$ cd manual-build
+$ mkdir flask-manual-build\
+$ cd flask-manual-build
 
 hello.py erstellen:\
 $ code hello.py\
