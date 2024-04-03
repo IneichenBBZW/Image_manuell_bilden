@@ -15,7 +15,7 @@ cd /app\
 export FLASK_APP="hello"\
 export FLASK_ENV="development"\
 export FLASK_RUN_HOST="0.0.0.0"\
-flask run\
+flask run
 
 Python Container erstellen und einrichten:\
 $ docker create -it --name flask-manual -p 5000:5000 python /bin/bash\
